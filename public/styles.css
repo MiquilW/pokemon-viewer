@@ -1,0 +1,31 @@
+body {
+    background-color: darkslategray;
+}
+
+img {
+    width: 10%;
+}
+
+.pokemonContainer {
+    margin-top: 12%;
+}
+
+button {
+    width: 45%;
+    border-width: 1px;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 1px
+}
+
+button:hover {
+    background-color: #036d46;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
