@@ -1,14 +1,35 @@
+/* Body */
+
 body {
     background-color: darkslategray;
 }
+
+/* Header */
+
+h1 {
+    margin-top: 100px;
+    font-size: 400%;
+    text-shadow:
+    -1px 0px 0 black,  
+     0px -1px 0 black,
+     0px 1px 0 black,
+     1px 0px 0 black;
+    color: #04AA6D;
+    display: flex;
+    justify-content: center;
+}
+
+/* Pokemon sprites */
 
 img {
     width: 10%;
 }
 
 .pokemonContainer {
-    margin-top: 12%;
+    margin-top: 5%;
 }
+
+/* Buttons */
 
 button {
     width: 45%;
@@ -28,5 +49,21 @@ button:hover {
 
 .buttonContainer {
     text-align: center;
+}
+
+/* Footer */
+
+footer {
+    text-shadow:
+    -1px 0px 0 black,  
+     0px -1px 0 black,
+     0px 1px 0 black,
+     1px 0px 0 black;
+    color: #04AA6D;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
 }
 
